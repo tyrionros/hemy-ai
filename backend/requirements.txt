@@ -4,5 +4,7 @@ python-dotenv
 requests
 python-jose[cryptography]
 msal
+openai
+
 
 
