@@ -19,7 +19,7 @@ These steps guide you through setting up the local development environment for t
     ```
 
 2.  **Initialize the React project using Vite:**
-    Vite provides a fast and modern development experience. Run the following command and follow the prompts to create a new project with the `react-ts` template.
+    If you are starting from scratch, run the following command and follow the prompts to create a new project with the `react-ts` template.
     ```bash
     # If you use npm
     npm create vite@latest . -- --template react-ts
@@ -43,10 +43,10 @@ These steps guide you through setting up the local development environment for t
     We will use Microsoft's Fluent UI for a native look and feel, and MSAL for authentication.
     ```bash
     # If you use npm
-    npm install @fluentui/react-components @microsoft/msal-browser @microsoft/msal-react
+    npm install @fluentui/react-components @azure/msal-browser @azure/msal-react
 
     # If you use yarn
-    yarn add @fluentui/react-components @microsoft/msal-browser @microsoft/msal-react
+    yarn add @fluentui/react-components @azure/msal-browser @azure/msal-react
     ```
 
 ## 2. Running the Development Server
